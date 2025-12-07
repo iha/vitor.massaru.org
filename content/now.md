@@ -10,7 +10,6 @@ Last updated on {{< lastmod >}} from Campinas, Brazil.
 - Keeping this blog alive.
 - Enjoying my vacation.
 - Carving out time for open source contributions.
-- Focusing on my health at the gym.
 
 ---
 

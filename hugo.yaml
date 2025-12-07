@@ -50,7 +50,6 @@ markup:
     guessSyntax: true
 
 enableGitInfo: true
-enableRobotsTXT: true
 
 frontmatter:
   date:
