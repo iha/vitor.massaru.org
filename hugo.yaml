@@ -1,0 +1,66 @@
+baseURL: "https://massaru.org/"
+title: "Vitor Iha"
+languageCode: "en"
+defaultContentLanguage: "en"
+theme: "hugo-coder"
+author: "iha"
+
+params:
+  author: "Vitor Iha"
+  avatarUrl: "images/avatar.jpg"
+  info: "Embedded Software Engineer"
+  description: "Iha's personal site and blog."
+  social:
+    - name: "Github"
+      icon: "fa-brands fa-github fa-2x"
+      weight: 1
+      url: "https://github.com/iha"
+    - name: "LinkedIn"
+      icon: "fa-brands fa-linkedin fa-2x"
+      weight: 4
+      url: "https://www.linkedin.com/in/vitoriha"
+
+menu:
+  main:
+    - identifier: home
+      url: /
+      weight: 10
+    - identifier: now
+      name: Now
+      weight: 20
+      url: /now/
+    - identifier: blog
+      name: Blog
+      url: /posts/
+      weight: 30
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 40
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 50
+
+markup:
+  highlight:
+    style: "github-dark"
+    lineNos: true
+    noClasses: false
+    guessSyntax: true
+
+enableGitInfo: true
+
+frontmatter:
+  date:
+    - :filename
+    - :default
+    - lastmod
+    - :fileModTime
+  publishDate:
+    - :filename
+    - :default
+
+caches:
+  images:
+    dir: :cacheDir/images
